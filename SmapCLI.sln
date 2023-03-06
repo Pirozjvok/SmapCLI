@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpamBot", "SpamBot\SpamBot.csproj", "{715AE915-9174-424D-BA40-3073B96383C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpamBotCore", "SpamBotCore\SpamBotCore.csproj", "{DAEA88EC-FF07-4315-9E49-80C9B37AD106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{715AE915-9174-424D-BA40-3073B96383C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715AE915-9174-424D-BA40-3073B96383C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715AE915-9174-424D-BA40-3073B96383C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715AE915-9174-424D-BA40-3073B96383C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEA88EC-FF07-4315-9E49-80C9B37AD106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEA88EC-FF07-4315-9E49-80C9B37AD106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEA88EC-FF07-4315-9E49-80C9B37AD106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEA88EC-FF07-4315-9E49-80C9B37AD106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09133898-1D06-499B-8F69-C9430ADB8ECC}
+	EndGlobalSection
+EndGlobal
