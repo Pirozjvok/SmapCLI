@@ -8,6 +8,7 @@ namespace SpamBotCore
 {
     public class SpamManager
     {
+        private const int MAX_CAPACITY = 2048;
         private BlockingCollection<ISpamTask> _spamTask { get; set; }
 
         private List<Task> _tasks = new List<Task>();
@@ -17,7 +18,7 @@ namespace SpamBotCore
         public bool IsActive { get; private set; }
         public SpamManager()
         {
-            _spamTask = new BlockingCollection<ISpamTask>();
+            _spamTask = new BlockingCollection<ISpamTask>(MAX_CAPACITY);
         }
         public void AddTask(ISpamTask spamTask)
         {
